@@ -24,3 +24,4 @@ FROM types;
 SELECT COUNT(*) AS NumberOfPokemonWithSecondaryTypes
 FROM pokemons
 WHERE secondary_type IS NOT NULL;
+ 
