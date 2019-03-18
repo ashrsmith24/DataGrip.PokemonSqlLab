@@ -42,3 +42,4 @@ FROM
   FROM pokemon_trainer
      GROUP BY pokemon_id
   HAVING COUNT(*) = 1) AS PokemonThatBelongsToTrainer;
+  
